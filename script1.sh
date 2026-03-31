@@ -1,14 +1,19 @@
-#!/bin/bash
+# !/bin/bash
+# Script 1: System Identity Report
+# Author: [Your Name] | Course: Open Source Software
 
-STUDENT_NAME="Ad"
+# --- Variables ---
+STUDENT_NAME="Aditi"
 SOFTWARE_CHOICE="Git"
 
+# --- System info ---
 KERNEL=$(uname -r)
 USER_NAME=$(whoami)
 UPTIME=$(uptime -p)
 DATE=$(date)
 DISTRO=$(lsb_release -d | cut -f2)
 
+# --- Display ---
 echo "==============================="
 echo " Open Source Audit — $STUDENT_NAME"
 echo "==============================="
