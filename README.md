@@ -1,6 +1,6 @@
-# 🧾 Open Source Audit Project
+# Open Source Audit Project
 
-## 👩‍🎓 Student Details
+## Student Details
 
 * **Name:** Aditi
 * **Roll Number:** 24BHI10046
@@ -9,7 +9,7 @@
 * **Chosen Software:** Git
 
 
-## 📌 Project Overview
+## Project Overview
 
 This project is a structured audit of an open-source software (**Git**) along with implementation of Linux shell scripts.
 
@@ -20,7 +20,7 @@ The objective is to:
 * Demonstrate automation using Bash scripting
 
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 ### 1. Operating System
 
@@ -35,7 +35,7 @@ uname -a
 
 ---
 
-## 📦 Dependency Installation
+## Dependency Installation
 
 ### Step 1: Update System
 
