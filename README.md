@@ -182,7 +182,7 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 ```
 
 
-## ⚙️ Configuration Notes
+## Configuration Notes
 
 * Scripts must be run in Linux terminal
 * Some commands may require `sudo`
