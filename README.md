@@ -2,13 +2,12 @@
 
 ## 👩‍🎓 Student Details
 
-* **Name:** Aditi Kumari
+* **Name:** Aditi
 * **Roll Number:** 24BHI10046
 * **Course:** Open Source Software
 * **Project Title:** The Open Source Audit
 * **Chosen Software:** Git
 
----
 
 ## 📌 Project Overview
 
@@ -20,7 +19,6 @@ The objective is to:
 * Analyze software in a Linux environment
 * Demonstrate automation using Bash scripting
 
----
 
 ## ⚙️ Environment Setup
 
@@ -59,7 +57,7 @@ sudo apt install coreutils grep awk -y
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 oss-audit-24BHI10046/
@@ -74,9 +72,9 @@ oss-audit-24BHI10046/
 
 ---
 
-## 🧠 Scripts Description
+## Scripts Description
 
-### 🔹 Script 1: System Identity Report
+### Script 1: System Identity Report
 
 * Displays:
 
@@ -88,7 +86,7 @@ oss-audit-24BHI10046/
 
 ---
 
-### 🔹 Script 2: FOSS Package Inspector
+### Script 2: FOSS Package Inspector
 
 * Checks if Git is installed
 * Displays package details (version, description)
@@ -97,7 +95,7 @@ oss-audit-24BHI10046/
 
 ---
 
-### 🔹 Script 3: Disk and Permission Auditor
+### Script 3: Disk and Permission Auditor
 
 * Scans system directories:
 
@@ -109,9 +107,8 @@ oss-audit-24BHI10046/
   * Directory size
 * Concepts used: loops, awk, du
 
----
 
-### 🔹 Script 4: Log File Analyzer
+### Script 4: Log File Analyzer
 
 * Reads log file line by line
 * Counts occurrences of a keyword (default: "error")
@@ -121,9 +118,8 @@ oss-audit-24BHI10046/
   * conditional statements
   * command-line arguments
 
----
 
-### 🔹 Script 5: Open Source Manifesto Generator
+### Script 5: Open Source Manifesto Generator
 
 * Takes user input interactively
 * Generates a personalized open-source statement
@@ -134,9 +130,8 @@ oss-audit-24BHI10046/
   * file handling
   * string formatting
 
----
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### Step 1: Clone Repository
 
@@ -145,7 +140,6 @@ git clone https://github.com/aditi7870/oss-audit-24BHI10046.git
 cd oss-audit-24BHI10046
 ```
 
----
 
 ### Step 2: Give Permission
 
@@ -153,41 +147,40 @@ cd oss-audit-24BHI10046
 chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 ```
 
----
+
 
 ### Step 3: Execute Scripts
 
-#### ▶ Run Script 1
+#### Run Script 1
 
 ```bash
 ./script1.sh
 ```
 
-#### ▶ Run Script 2
+#### Run Script 2
 
 ```bash
 ./script2.sh
 ```
 
-#### ▶ Run Script 3
+#### Run Script 3
 
 ```bash
 ./script3.sh
 ```
 
-#### ▶ Run Script 4
+#### Run Script 4
 
 ```bash
 ./script4.sh /var/log/syslog error
 ```
 
-#### ▶ Run Script 5
+#### Run Script 5
 
 ```bash
 ./script5.sh
 ```
 
----
 
 ## ⚙️ Configuration Notes
 
@@ -198,9 +191,9 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
   * Ubuntu → `/var/log/syslog`
   * CentOS → `/var/log/messages`
 
----
 
-## 📊 Expected Output
+
+## Expected Output
 
 * All scripts display structured output in terminal
 * Script 5 generates:
@@ -209,27 +202,24 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
   manifesto.txt
   ```
 
----
 
-## 🧪 Testing
+
+## Testing
 
 * Tested on Ubuntu Linux
 * All scripts are executable via command line
 * No GUI dependency required
 
----
 
-## ⚠️ Important Notes for Evaluator
+## Important Notes for Evaluator
 
 * Repository is public and accessible
 * All scripts are included and working
 * Instructions assume no prior knowledge
 * Project follows command-line execution requirement
 
----
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates both conceptual and practical understanding of open-source systems using Git and Linux shell scripting. It highlights the importance of collaboration, transparency, and automation in modern software development.
 
----
